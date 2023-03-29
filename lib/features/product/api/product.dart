@@ -5,7 +5,7 @@ import 'package:image_picker/image_picker.dart';
 
 import '../../../common/util/api.dart';
 import '../../../common/util/base_dio.dart';
-import '../../../constants/constans.dart';
+import '../../../common/constants/constans.dart';
 import '../../../local storage/app_shared_preference.dart';
 
 class ProductService {
@@ -20,7 +20,7 @@ class ProductService {
         "system_key": Api.KEY,
         "account_id": user['id'].toString()
       };
-      var res = await _dio.dio.post(Api.product, data: payload);
+      var res = await _dio.dio().post(Api.product, data: payload);
       List product = res.data['data']['results'];
 
       return product;
@@ -71,7 +71,7 @@ class ProductService {
 
       print(data);
 
-      var res = await _dio.dio.post(Api.product_create, data: data);
+      var res = await _dio.dio().post(Api.product_create, data: data);
       print(res);
       if (res.data['code'] == 200) {
         return true;

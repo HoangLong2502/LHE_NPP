@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_typography.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_typography.dart';
 import 'index_controller.dart';
 import 'index_item/historyOrder.dart';
 import 'index_item/profile.dart';

@@ -4,12 +4,12 @@ import 'package:get/get.dart';
 import 'package:lhe_npp/common/base/base_button.dart';
 import 'package:lhe_npp/common/routes/app_routes.dart';
 import 'package:lhe_npp/common/util/enum/type_ticket.dart';
-import 'package:lhe_npp/constants/app_size_device.dart';
+import 'package:lhe_npp/common/constants/app_size_device.dart';
 
-import '../../constants/app_colors.dart';
-import '../../constants/app_spacing.dart';
-import '../../constants/app_typography.dart';
-import '../../constants/assets_path.dart';
+import '../../common/constants/app_colors.dart';
+import '../../common/constants/app_spacing.dart';
+import '../../common/constants/app_typography.dart';
+import '../../common/constants/assets_path.dart';
 import '../../features/order/models/index.dart';
 
 class OrderCard extends StatelessWidget {

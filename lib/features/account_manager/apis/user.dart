@@ -9,7 +9,7 @@ class UserService {
   Future<List> getAllUser(int page) async {
     try {
       var pageSize = 5;
-      var res = await _dio.dio.get('${Api.user_by_admin}?page=${page - 1}&page_size=$pageSize');
+      var res = await _dio.dio().get('${Api.user_by_admin}?page=${page - 1}&page_size=$pageSize');
       return res.data['data']['account'];
     } catch (e) {
       debugPrint('err : $e');
@@ -20,7 +20,7 @@ class UserService {
   Future<List> getUserByKey(int page, String systemKey) async {
     try {
       var pageSize = 5;
-      var res = await _dio.dio.get('${Api.user}?page=${page - 1}&page_size=$pageSize&system_key=$systemKey');
+      var res = await _dio.dio().get('${Api.user}?page=${page - 1}&page_size=$pageSize&system_key=$systemKey');
       return res.data['data']['account'];
     } catch (e) {
       throw Exception('err : $e');
@@ -29,7 +29,7 @@ class UserService {
 
   Future<Map> getProfile(String key) async {
     try {
-      var res = await _dio.dio.get('${Api.profile_by_system}?system_key=$key');
+      var res = await _dio.dio().get('${Api.profile_by_system}?system_key=$key');
       return res.data;
     } catch (e) {
       debugPrint('$e');
@@ -39,7 +39,7 @@ class UserService {
 
   Future<Map> registerAccount(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post(Api.register, data: payload);
+      var res = await _dio.dio().post(Api.register, data: payload);
       return {
         'isErr' : false,
         'data' : res.data

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 
-import '../../constants/app_spacing.dart';
+import '../../common/constants/app_spacing.dart';
 import '../card/user.dart';
 
 // class PagingView extends StatefulWidget {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../../common/base/base_container.dart';
-import '../../constants/app_colors.dart';
-import '../../constants/app_spacing.dart';
-import '../../constants/app_typography.dart';
+import '../../common/constants/app_colors.dart';
+import '../../common/constants/app_spacing.dart';
+import '../../common/constants/app_typography.dart';
 import '../../features/product/models/index.dart';
 
 Widget CardProduct(BuildContext context, ProductModel item) {

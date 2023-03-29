@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import '/common/util/enum/status_noti.dart';
 import '/components/notification/index.dart';
-import '/constants/app_colors.dart';
-import '/constants/app_typography.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_typography.dart';
 import '/features/product/api/product.dart';
 import '/features/product/views/Create/index_item.dart';
 import 'package:textfield_tags/textfield_tags.dart';
@@ -13,7 +13,7 @@ import '../../../../common/base/base_appBar.dart';
 import '../../../../common/base/base_button.dart';
 import '../../../../common/base/base_container.dart';
 import '../../../../common/base/base_input.dart';
-import '../../../../constants/app_spacing.dart';
+import '../../../../common/constants/app_spacing.dart';
 import 'index_controller.dart';
 
 class CreateProductView extends StatefulWidget {

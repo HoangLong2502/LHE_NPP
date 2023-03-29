@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 import '../../../../common/services/auth_service.dart';
-import '../../../../constants/constans.dart';
+import '../../../../common/constants/constans.dart';
 import '../../../../local storage/app_shared_preference.dart';
 
 class LogoutController extends GetxController {

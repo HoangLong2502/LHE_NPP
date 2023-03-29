@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../common/base/base_appBar.dart';
 import '../../components/maps/index.dart';
-import '../../constants/app_size_device.dart';
+import '../../common/constants/app_size_device.dart';
 
 class GoogleMapScreen extends StatefulWidget {
   const GoogleMapScreen({super.key});

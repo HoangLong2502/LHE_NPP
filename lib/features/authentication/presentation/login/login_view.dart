@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../constants/app_size_device.dart';
-import '../../../../constants/app_typography.dart';
-import '../../../../constants/assets_path.dart';
+import '../../../../common/constants/app_size_device.dart';
+import '../../../../common/constants/app_typography.dart';
+import '../../../../common/constants/assets_path.dart';
 import 'login_controller.dart';
 import 'login_item.dart';
 

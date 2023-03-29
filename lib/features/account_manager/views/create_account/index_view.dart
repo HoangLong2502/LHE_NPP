@@ -3,9 +3,9 @@ import 'package:get/get.dart';
 
 import '../../../../common/base/base_appBar.dart';
 import '../../../../common/util/enum/type_user.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_size_device.dart';
-import '../../../../constants/app_spacing.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_size_device.dart';
+import '../../../../common/constants/app_spacing.dart';
 import 'index_controller.dart';
 import 'index_item/npp.dart';
 import 'index_item/nvtt.dart';

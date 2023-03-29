@@ -4,10 +4,10 @@ import 'package:pin_code_fields/pin_code_fields.dart';
 
 import '../../../../common/base/base_button.dart';
 import '../../../../common/base/base_input.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_spacing.dart';
-import '../../../../constants/app_typography.dart';
-import '../../../../constants/assets_path.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_spacing.dart';
+import '../../../../common/constants/app_typography.dart';
+import '../../../../common/constants/assets_path.dart';
 import '../../../../common/util/event.dart';
 import 'forgot_password_controller.dart';
 

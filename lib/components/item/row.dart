@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../constants/app_typography.dart';
+import '../../common/constants/app_typography.dart';
 
 Widget buildRowItem({
   required String title,

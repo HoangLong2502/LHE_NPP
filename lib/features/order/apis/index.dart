@@ -7,7 +7,7 @@ class OrderService {
 
   Future<Map> getOrder(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post('${Api.order}/all_order', data: payload);
+      var res = await _dio.dio().post('${Api.order}/all_order', data: payload);
       return res.data;
     } catch (e) {
       throw Exception(e);
@@ -16,7 +16,7 @@ class OrderService {
 
   Future<Map> getDetailOrder(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post(Api.order_detail,data: payload);
+      var res = await _dio.dio().post(Api.order_detail,data: payload);
       return res.data;
     } catch (e) {
       throw Exception(e);
@@ -25,7 +25,7 @@ class OrderService {
 
   Future<Map> confirmOrder(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post(Api.order_confirm, data: payload);
+      var res = await _dio.dio().post(Api.order_confirm, data: payload);
       return res.data;
     } catch (e) {
       debugPrint('err : $e');
@@ -35,7 +35,7 @@ class OrderService {
 
   Future<Map> getProductNPP(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post('${Api.product}/all_product_formula', data: payload);
+      var res = await _dio.dio().post('${Api.product}/all_product_formula', data: payload);
       return res.data;
     } catch (e) {
       debugPrint('service err (getProductNPP) : $e');
@@ -45,7 +45,7 @@ class OrderService {
 
   Future<Map> createOrder(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post('${Api.order}/create_order', data: payload);
+      var res = await _dio.dio().post('${Api.order}/create_order', data: payload);
       return res.data;
     } catch (e) {
       debugPrint('$e');
@@ -55,7 +55,7 @@ class OrderService {
 
   Future<Map> createReceiptsExport(Map<String, dynamic> payload) async {
     try {
-      var res = await _dio.dio.post('${Api.warehouse}/receipt/api/create_receipts_export', data: payload);
+      var res = await _dio.dio().post('${Api.warehouse}/receipt/api/create_receipts_export', data: payload);
       return res.data;
     } catch (e) {
       debugPrint('$e');

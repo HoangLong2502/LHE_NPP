@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '/constants/app_size_device.dart';
-import '/constants/assets_path.dart';
+import '../../../common/constants/app_size_device.dart';
+import '../../../common/constants/assets_path.dart';
 import '/features/app/model/app_model.dart';
 import 'app_controller.dart';
 import 'app_item.dart';

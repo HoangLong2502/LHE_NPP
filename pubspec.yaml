@@ -163,6 +163,7 @@ flutter:
     - assets/imgs/app_baocao.png
     - assets/imgs/app_quanlynpp.png
     - assets/imgs/app_mangxahoinoibo.png
+    - assets/imgs/app_setting.png
 
     #group account
     - assets/imgs/group/emty.svg
@@ -171,6 +172,10 @@ flutter:
     - assets/imgs/order/type.svg
     - assets/imgs/order/calendar.svg
     - assets/imgs/order/note.svg
+
+    #app setting
+    - assets/imgs/setting/setting_order.png
+    - assets/imgs/setting/setting_genera.png
 
     #dash board
     - assets/imgs/dashboard/sale.png

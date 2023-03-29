@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import '/common/base/base_button.dart';
 import '/components/item/row.dart';
-import '/constants/app_colors.dart';
-import '/constants/app_spacing.dart';
-import '/constants/app_typography.dart';
+import '../../common/constants/app_colors.dart';
+import '../../common/constants/app_spacing.dart';
+import '../../common/constants/app_typography.dart';
 import '/features/warehouse/models/consignment.dart';
 
 // ignore: must_be_immutable

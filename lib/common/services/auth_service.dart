@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../../constants/constans.dart';
+import '../constants/constans.dart';
 import '../../local storage/app_shared_preference.dart';
 
 class AuthService extends GetxService {

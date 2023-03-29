@@ -5,7 +5,7 @@ import '../../../common/base/base_button.dart';
 import '../../../common/base/base_input.dart';
 import '../../../common/routes/app_routes.dart';
 import '../../../components/filter/filter_button.dart';
-import '../../../constants/app_spacing.dart';
+import '../../../common/constants/app_spacing.dart';
 import 'product_controller.dart';
 
 Widget ProductPage1(

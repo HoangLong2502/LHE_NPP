@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 import '../../../common/base/base_button.dart';
 import '../../../common/routes/app_routes.dart';
 import '../../../components/item/row.dart';
-import '../../../constants/app_colors.dart';
-import '../../../constants/app_spacing.dart';
-import '../../../constants/app_typography.dart';
+import '../../../common/constants/app_colors.dart';
+import '../../../common/constants/app_spacing.dart';
+import '../../../common/constants/app_typography.dart';
 
 class NppCard extends StatelessWidget {
   const NppCard({required this.npp, super.key});

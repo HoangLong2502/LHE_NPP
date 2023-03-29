@@ -11,10 +11,10 @@ import '../../../../common/util/api.dart';
 import '../../../../components/card/order.dart';
 import '../../../../components/filter/filter_button.dart';
 import '../../../../components/infinite_scroll/event.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_size_device.dart';
-import '../../../../constants/app_spacing.dart';
-import '../../../../constants/constans.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_size_device.dart';
+import '../../../../common/constants/app_spacing.dart';
+import '../../../../common/constants/constans.dart';
 import '../../../../local storage/app_shared_preference.dart';
 import '../../models/index.dart';
 import '../index_controller.dart';
@@ -66,7 +66,6 @@ class _ImportOrderViewState extends State<ImportOrderView> {
       "page_size": "10",
       "system_key": Api.KEY
     };
-    print(payload);
     var res = await _controller.getAll(payload);
     return res;
   }

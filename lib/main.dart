@@ -6,9 +6,9 @@ import 'common/routes/app_pages.dart';
 import 'common/routes/app_routes.dart';
 import 'common/services/auth_service.dart';
 import 'common/services/notification/notification.dart';
-import 'constants/app_colors.dart';
-import 'constants/app_typography.dart';
-import 'constants/constans.dart';
+import 'common/constants/app_colors.dart';
+import 'common/constants/app_typography.dart';
+import 'common/constants/constans.dart';
 import 'features/authentication/presentation/login/login_binding.dart';
 import 'local storage/app_shared_preference.dart';
 

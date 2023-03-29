@@ -7,8 +7,8 @@ import '../../../common/routes/app_routes.dart';
 import '../../../components/filter/filter_button.dart';
 import '../../../components/infinite_scroll/event.dart';
 import '../../../components/infinite_scroll/index.dart';
-import '../../../constants/app_size_device.dart';
-import '../../../constants/app_spacing.dart';
+import '../../../common/constants/app_size_device.dart';
+import '../../../common/constants/app_spacing.dart';
 import '../apis/user.dart';
 
 class UserPage extends StatefulWidget {

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
-import '../../constants/app_colors.dart';
-import '../../constants/app_size_device.dart';
-import '../../constants/assets_path.dart';
+import '../constants/app_colors.dart';
+import '../constants/app_size_device.dart';
+import '../constants/assets_path.dart';
 import '../routes/app_routes.dart';
 
 Widget buildBottomBar(BuildContext context, int pageIndex, Function changeTab) {

@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
 import '../../../common/routes/app_routes.dart';
-import '../../../constants/assets_path.dart';
+import '../../../common/constants/assets_path.dart';
 import '../model/app_model.dart';
 
 class AppController extends GetxController {
@@ -51,6 +51,12 @@ class AppController extends GetxController {
       logo: Image.asset('${AssetsPath.image}/app_canhan.png'),
       title: 'Cá nhân',
       routeName: Routes.routeAccount,
+      show: true,
+    ),
+    AppModel(
+      logo: Image.asset('${AssetsPath.image}/app_setting.png'),
+      title: 'Cài đặt hệ thống',
+      routeName: Routes.routeSetting,
       show: true,
     ),
     // AppModel(

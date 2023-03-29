@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:lhe_npp/common/base/base_button.dart';
 import 'package:lhe_npp/components/card/consignment.dart';
 import 'package:lhe_npp/components/item/row.dart';
-import 'package:lhe_npp/constants/constans.dart';
+import 'package:lhe_npp/common/constants/constans.dart';
 import 'package:lhe_npp/features/order/models/order_product.dart';
 import 'package:lhe_npp/features/order/views/create_export/controller.dart';
 import 'package:lhe_npp/features/warehouse/models/consignment.dart';
@@ -13,9 +13,9 @@ import 'package:lhe_npp/local%20storage/app_shared_preference.dart';
 
 import '../../../../common/base/base_container.dart';
 import '../../../../common/util/event.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_spacing.dart';
-import '../../../../constants/app_typography.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_spacing.dart';
+import '../../../../common/constants/app_typography.dart';
 
 // ignore: must_be_immutable
 class PopSuggestConsigment extends StatefulWidget {

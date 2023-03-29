@@ -11,4 +11,5 @@ class PrefKeys {
   static const String USER = 'USER';
   static const String WAREHOUSE = 'WAREHOUSE';
   static const String KEY = 'AD';
+  static const String TOKEN_REFRESH = 'TOKEN_REFRESH';
 }

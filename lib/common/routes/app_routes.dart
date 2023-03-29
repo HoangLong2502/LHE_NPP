@@ -25,4 +25,11 @@ class Routes {
 
   // Google Map Screen
   static const String routeGoogleMapScreen = '/google_map_screen';
+
+  // Setting
+  static const String routeSetting = '/setting_screen';
+  static const String routeSettingOrder = '/setting_order_screen';
+  static const String routeCreateSettingOrder = '/create_setting_order_screen';
+  static const String routeUpdateSettingOrder = '/update_setting_order_screen';
+  static const String routeSettingGenera = '/setting_genera_screen';
 }

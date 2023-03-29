@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../constants/app_size_device.dart';
-import '../../../../constants/app_spacing.dart';
+import '../../../../common/constants/app_size_device.dart';
+import '../../../../common/constants/app_spacing.dart';
 import 'forgot_password_controller.dart';
 import 'forgot_password_item.dart';
 

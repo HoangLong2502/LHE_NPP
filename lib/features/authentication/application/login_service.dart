@@ -7,7 +7,7 @@ import 'package:lhe_npp/features/warehouse/apis/index.dart';
 import '../../../common/routes/app_routes.dart';
 import '../../../common/services/auth_service.dart';
 import '../../../local storage/app_shared_preference.dart';
-import '/constants/constans.dart';
+import '../../../common/constants/constans.dart';
 import '../../../common/util/api.dart';
 
 class LoginService {

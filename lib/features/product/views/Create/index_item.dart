@@ -9,10 +9,10 @@ import '../../../../common/base/base_button.dart';
 import '../../../../common/base/base_container.dart';
 import '../../../../common/base/base_input.dart';
 import '../../../../common/base/base_select.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_size_device.dart';
-import '../../../../constants/app_spacing.dart';
-import '../../../../constants/app_typography.dart';
+import '../../../../common/constants/app_colors.dart';
+import '../../../../common/constants/app_size_device.dart';
+import '../../../../common/constants/app_spacing.dart';
+import '../../../../common/constants/app_typography.dart';
 
 class CreateProductItem {
   Widget InfoProduct(
@@ -41,6 +41,7 @@ class CreateProductItem {
                     select: product_category ?? null,
                     handleSelect: handleSelect,
                     hint: 'Chọn một danh mục',
+                    validator: () {},
                   ),
                 ),
               ],

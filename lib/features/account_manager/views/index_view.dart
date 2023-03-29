@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 
-import '../../../constants/app_colors.dart';
-import '../../../constants/app_size_device.dart';
-import '../../../constants/app_spacing.dart';
-import '../../../constants/app_typography.dart';
+import '../../../common/constants/app_colors.dart';
+import '../../../common/constants/app_size_device.dart';
+import '../../../common/constants/app_spacing.dart';
+import '../../../common/constants/app_typography.dart';
 import '../../group/views/index_view.dart';
 import 'index_item.dart';
 

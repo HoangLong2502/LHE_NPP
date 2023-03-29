@@ -1,6 +1,7 @@
 import 'package:get/route_manager.dart';
 import 'package:lhe_npp/features/order/views/create_export/view.dart';
 import 'package:lhe_npp/features/order/views/create_import/view.dart';
+import 'package:lhe_npp/views/Setting/update.dart';
 
 import '../../views/Account/index.dart';
 import '../../views/Auth/LoginScreen.dart';
@@ -12,6 +13,9 @@ import '../../views/Order/Detail/index.dart';
 import '../../views/Order/index.dart';
 import '../../views/Product/CreateProduct/index.dart';
 import '../../views/Product/index.dart';
+import '../../views/Setting/create.dart';
+import '../../views/Setting/index.dart';
+import '../../views/Setting/order.dart';
 import '../../views/User/create/index.dart';
 import '../../views/User/index.dart';
 import '../../views/User/type_create/index.dart';
@@ -108,6 +112,28 @@ class AppPages {
     GetPage(
       name: Routes.routeTypeCreateUser,
       page: () => const TypeCreateUserScreen(),
+      middlewares: [RouteMiddleware()],
+    ),
+
+    // Setting
+    GetPage(
+      name: Routes.routeSetting,
+      page: () => const SettingScreen(),
+      middlewares: [RouteMiddleware()],
+    ),
+    GetPage(
+      name: Routes.routeSettingOrder,
+      page: () => const SettingOrderScreen(),
+      middlewares: [RouteMiddleware()],
+    ),
+    GetPage(
+      name: Routes.routeCreateSettingOrder,
+      page: () => const CreateTypeOrderScreen(),
+      middlewares: [RouteMiddleware()],
+    ),
+    GetPage(
+      name: Routes.routeUpdateSettingOrder,
+      page: () => const UpdateTypeOrderScreen(),
       middlewares: [RouteMiddleware()],
     ),
 

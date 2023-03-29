@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/constants/app_typography.dart';
+import '../constants/app_typography.dart';
 
 InputDecoration baseInputDecoration = InputDecoration(
   enabledBorder: OutlineInputBorder(

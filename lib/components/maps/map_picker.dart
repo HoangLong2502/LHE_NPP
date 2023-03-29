@@ -9,11 +9,11 @@ import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import '../../common/base/base_button.dart';
 import '../../common/base/base_container.dart';
-import '/constants/app_colors.dart';
-import '/constants/app_spacing.dart';
-import '/constants/app_typography.dart';
+import '../../common/constants/app_colors.dart';
+import '../../common/constants/app_spacing.dart';
+import '../../common/constants/app_typography.dart';
 
-import '../../constants/app_size_device.dart';
+import '../../common/constants/app_size_device.dart';
 
 class MapPickerNPP extends StatefulWidget {
   MapPickerNPP({required this.comfirmPosition, super.key});

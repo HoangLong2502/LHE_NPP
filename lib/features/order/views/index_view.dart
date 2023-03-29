@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:lhe_npp/constants/app_colors.dart';
+import 'package:lhe_npp/common/constants/app_colors.dart';
 import 'package:lhe_npp/features/order/views/index_item/export.dart';
 import 'package:lhe_npp/features/order/views/index_item/import.dart';
 
